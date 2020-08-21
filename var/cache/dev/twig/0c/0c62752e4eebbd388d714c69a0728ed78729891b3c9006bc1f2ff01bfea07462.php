@@ -56,7 +56,7 @@ class __TwigTemplate_45d284ef3d11374fc3b0b3832f221ff45f2ade846a2c98e986b92f1dd66
 
     }
 
-    // line 3
+    // line 4
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -75,7 +75,7 @@ class __TwigTemplate_45d284ef3d11374fc3b0b3832f221ff45f2ade846a2c98e986b92f1dd66
 
     }
 
-    // line 4
+    // line 5
     public function block_monTitre($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -94,7 +94,7 @@ class __TwigTemplate_45d284ef3d11374fc3b0b3832f221ff45f2ade846a2c98e986b92f1dd66
 
     }
 
-    // line 6
+    // line 7
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -104,7 +104,7 @@ class __TwigTemplate_45d284ef3d11374fc3b0b3832f221ff45f2ade846a2c98e986b92f1dd66
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 7
+        // line 8
         echo "
 ";
         
@@ -127,12 +127,13 @@ class __TwigTemplate_45d284ef3d11374fc3b0b3832f221ff45f2ade846a2c98e986b92f1dd66
 
     public function getDebugInfo()
     {
-        return array (  108 => 7,  98 => 6,  79 => 4,  60 => 3,  37 => 1,);
+        return array (  108 => 8,  98 => 7,  79 => 5,  60 => 4,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
+
 
 {% block title %}Accueil{% endblock %}
 {% block monTitre %}Page d'accueil{% endblock %}
@@ -140,6 +141,7 @@ class __TwigTemplate_45d284ef3d11374fc3b0b3832f221ff45f2ade846a2c98e986b92f1dd66
 {% block body %}
 
 {% endblock %}
-", "personnage/index.html.twig", "/Users/macbook/Desktop/Realisations/1-persos/templates/personnage/index.html.twig");
+
+", "personnage/index.html.twig", "/Users/macbook/Desktop/projets_github/characters-symfony/templates/personnage/index.html.twig");
     }
 }

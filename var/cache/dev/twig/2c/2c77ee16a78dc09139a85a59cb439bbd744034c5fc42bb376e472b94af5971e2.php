@@ -57,6 +57,12 @@ class __TwigTemplate_41031b0d2c47ac45e0073ba04b2e253f21aa2c8d5515d0392980707a9d5
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("personnages");
         echo "\">Personnages</a>
         </li>
+        <li class=\"nav-item\">
+          <a class=\"nav-link\" href=\"";
+        // line 13
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("armes");
+        echo "\">Armes</a>
+        </li>
       </ul>
     </div>
   </nav>";
@@ -80,7 +86,7 @@ class __TwigTemplate_41031b0d2c47ac45e0073ba04b2e253f21aa2c8d5515d0392980707a9d5
 
     public function getDebugInfo()
     {
-        return array (  57 => 10,  46 => 2,  43 => 1,);
+        return array (  63 => 13,  57 => 10,  46 => 2,  43 => 1,);
     }
 
     public function getSourceContext()
@@ -96,8 +102,11 @@ class __TwigTemplate_41031b0d2c47ac45e0073ba04b2e253f21aa2c8d5515d0392980707a9d5
         <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"{{ path(\"personnages\") }}\">Personnages</a>
         </li>
+        <li class=\"nav-item\">
+          <a class=\"nav-link\" href=\"{{ path(\"armes\") }}\">Armes</a>
+        </li>
       </ul>
     </div>
-  </nav>", "menu.html.twig", "/Users/macbook/Desktop/Realisations/1-persos/templates/menu.html.twig");
+  </nav>", "menu.html.twig", "/Users/macbook/Desktop/projets_github/characters-symfony/templates/menu.html.twig");
     }
 }
